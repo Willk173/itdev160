@@ -1,0 +1,181 @@
+* { margin: 0; padding: 0;}
+body {
+    width: 964px;
+    font-family: "open sans" , sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 15px auto;
+    background-color: rgb(197, 191, 191);
+    border: 1px solid black;
+}
+
+.dropdown-content {
+    display: none;
+    color: burlywood;
+    padding: 0 10px;
+    font-size: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px; 
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav {
+    background: rgb(85, 80, 80);
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 10px;
+}
+nav ul li {
+    display: inline-block;
+    background: rgb(85, 80, 80); 
+    text-align: center;
+}
+nav ul li a {
+    display: list-item;
+    color: burlywood;
+    padding: 0 10px;
+    font-size: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px; 
+    text-align: center;
+}
+nav li a:hover {
+    background: #000000;
+}
+nav ul li a {
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+
+
+header { border-bottom: 2px solid rgb(0, 0, 0);}
+
+h1 {
+    padding: 1em;
+    text-align: center;
+}
+
+h3 {
+    padding: 1em;
+    text-align: left;
+    font-size: medium ;
+    margin: 20px 0 20px 0;
+}
+
+h4 {
+    padding: 1em;
+    text-align: left;
+    font-size: medium ;
+    margin: 20px 0 20px 0;
+}
+
+h5 {
+    padding: 1em;
+    text-align: left;
+    font-size: medium ;
+    margin: 20px 0 20px 0;
+}
+
+h6 {
+    padding: 1em;
+    text-align: left;
+    font-size: medium ;
+    margin: 20px 0 20px 0;
+}
+
+h6 {   
+    padding: 1em;
+    text-align: left;
+    font-size: medium ;
+    margin: 20px 0 20px 0;
+}
+
+main {
+    height: 860px;
+    width: 600px;
+    float: left;
+    border-right: 2px solid rgb(0, 0, 0)
+}
+
+#sidebarA {
+    width: 180px;
+    height: 860px;
+    float: left;
+    border-right: 1px solid black;
+}
+
+#sidebarB {
+    width: 180px;
+    height: 860px;
+    float: right;
+    border-left: 1px solid black;
+}
+
+
+footer {
+    clear: both;
+    border-top: 2px solid rgb(0, 0, 0);
+}
+
+.messages {
+    margin-bottom: 20px;
+}
+
+.out-message {
+    padding: 5px;
+    background-color: rgb(197, 191, 191);
+}
+
+.in-message {
+    padding: 5px;
+    background-color: burlywood;
+}
+
+section {
+    float: left;
+    border-right: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    background-color:rgb(85, 80, 80);
+}
+
+section button {
+    float: left;
+    border-right: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    background-color: burlywood;
+}
+
+.messages {
+    float: left;
+    border-right: 2px solid rgb(0, 0, 0);
+    width: 170px;
+    background-color:rgb(85, 80, 80);
+}
+
+section .message-container {
+    float: left;
+}
+
+#messages {
+    width: 180px;
+    height: 860px;
+    float: left;
+    border-right: 1px solid black;
+}
